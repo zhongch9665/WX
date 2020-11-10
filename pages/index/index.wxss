@@ -1,0 +1,44 @@
+
+.card-top{
+  height: 400rpx;
+  border: #797979;
+  background: linear-gradient(#cdfe9b,#e3e5e0);
+  border-radius: 10rpx;
+  margin: 40rpx ;
+  display: flex;
+  justify-content: space-around;
+  padding-top:40rpx ;
+  position: relative;
+} 
+.introduction{
+  min-width: 150rpx;
+
+  max-height: 250rpx;
+  display: flex;
+  flex-direction: column;
+}
+.head{
+  width: 170rpx;
+  height: 170rpx;
+
+  border-radius: 50%;
+}
+.head image{
+  width: 100%;
+  height: 100%;
+}
+.bt{
+position: absolute;
+bottom: 100rpx;
+right: 80rpx;
+display: flex;
+flex-direction: column;
+text-align: end;
+}
+.watch{
+  margin: 40rpx ;
+}
+.watch-count{
+  display: flex;
+  justify-content: space-around;
+}

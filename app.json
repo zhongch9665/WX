@@ -1,0 +1,34 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/card/card",
+    "pages/dynamic/dynamic"
+    
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "智能名片",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#5E5E5E",
+    "selectedColor": "#1296db",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "名片",
+        "iconPath": "./assets/images/user.png",
+        "selectedIconPath": "./assets/images/my_user.png"
+      },
+      {
+        "pagePath": "pages/dynamic/dynamic",
+        "text": "动态",
+        "iconPath": "./assets/images/dynamic.png",
+        "selectedIconPath": "./assets/images/my_dynamic.png"
+      }
+
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

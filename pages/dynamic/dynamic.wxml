@@ -1,0 +1,26 @@
+<view class="dyn">
+  <!-- header -->
+  <!-- <van-icon name="arrow-left" size="50rpx"/> -->
+  <!-- 用户动态 -->
+  <view class="user">
+    <view class="ava">
+      <image src="../../assets/images/ava.png"></image>
+    </view>
+    <view class="right">
+      <text class="name">陈女士</text>
+      <text>天润智慧营销产品，打造基于企业微信的集客户引流、客户运营、销售赋能于一体的智能CRM系统，让获客更容易、触客更高效、管客更智能！</text>
+      <view class="img">
+        <image src=""></image>
+        <image src=""></image>
+        <image src=""></image>
+        <image src=""></image>
+      </view>
+
+      <view class="time">
+        <text >41分钟前</text>
+        <text>..</text>
+      </view>
+      
+    </view >
+  </view>
+</view>

@@ -1,0 +1,43 @@
+<!--index.wxml-->
+
+<view class="container">
+  <button class="bch" size="mini">名片夹</button>
+  <button class="bc" size="mini">名片</button>
+</view>
+<view class="card-top" bindtap="clickUser">
+  <view class="introduction">
+    <text>陈女士</text>
+    <text>销售总监</text>
+    <text>上海xx公司</text>
+  </view>
+  <view class="head">
+    <image src="../../assets/images/ava.png"></image>
+  </view>
+  <view class="bt">
+    <text>15166668888</text>
+    <text>上海市XX区xx号</text>
+  </view>
+</view>
+<van-grid column-num="5" border="{{ false }}">
+  <van-grid-item icon="photo-o" text="分享TA" />
+  <van-grid-item icon="photo-o" text="打电话" />
+  <van-grid-item icon="photo-o" text="加微信" />
+  <van-grid-item icon="photo-o" text="发邮件" />
+  <van-grid-item icon="photo-o" text="见面聊" />
+</van-grid>
+<view class="watch">
+  <view>
+    <text>靠谱的，值得信赖</text>
+    <view class="watch-count">
+      <text>XXXXXXX</text>
+      <text>368人关注</text>
+      <view>
+        <van-icon name="good-job-o" />
+        <text>178</text>
+      </view>
+
+    </view>
+  </view>
+  
+</view>
+<button bindtap="login">点击登录</button>
